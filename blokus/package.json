@@ -1,0 +1,20 @@
+{
+  "name": "blokus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "elm-make src/main.elm --output=assets/scripts/main.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "glicko2": "^0.8.4",
+    "mongoose": "^4.5.7"
+  }
+}

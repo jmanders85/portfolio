@@ -1,0 +1,5 @@
+{
+    "env": {
+        "ELM_COMPILE": "elm make src/main.elm --output=assets/scripts/main.js"
+    }
+}

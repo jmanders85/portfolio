@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bacchic Tendencies | Collection</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            #unplayed-checkbox {
+                display: inline-block;
+                margin-right: 4px;
+                margin-bottom: 16px;
+            }
+            .filter {
+                display: inline-block;
+                margin-left: 16px;
+                margin-bottom: 16px;
+            }
+            .game {
+                padding: 8px;
+                border: 1px solid #1a1a1a;
+                border-radius: 4px;
+                margin-bottom: 24px;
+            }
+            .game > * + * {
+                margin-top: 12px;
+            }
+            .game-unplayed {
+                background-color: mintcream;
+            }
+            .weight {
+                float: right;
+            }
+            .light-weight {
+                font-weight: lighter;
+            }
+            .medium-weight {
+                font-weight: normal;
+            }
+            .heavy-weight {
+                font-weight: bold;
+            }
+            .fat-weight {
+                font-weight: bolder;
+                text-shadow: 1px 1px #bdbdbd;
+            }
+            .count {
+                display: inline-block;
+                height: 24px;
+                width: 24px;
+                line-height: 1.5;
+                text-align: center;
+                vertical-align: bottom;
+            }
+            .count-great {
+                border: 2px solid green;
+                background-color: lemonchiffon;
+            }
+            .count-good {
+                border: 2px solid green;
+            }
+            .count-bad {
+                border: 2px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bacchic Tendencies</h1>
+        <a style="float:right" href="/">Return to blog</a>
+        <h2>Even though "I don't drink anymore"</h2>
+        <div class="controls"></div>
+        <div class="collection">Loading...</div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="collection.js"></script>
+    </body>
+</html>

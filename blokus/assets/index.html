@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Blokus Leaderboard</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css" />
+    </head>
+    <body>
+        <div id="main-view"></div>
+
+        <script src="scripts/main.js"></script>
+        <script>
+            var node = document.getElementById('main-view');
+            var app = Elm.Main.embed(node);
+        </script>
+    </body>
+</html>

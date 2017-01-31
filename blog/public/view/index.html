@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bacchic Tendencies</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            .entry + .entry {
+                border-top: 1px solid #1a1a1a;
+            }
+            .entry ul:not(:first-of-type) {
+                line-height: 1.3;
+            }
+            .button-gamesPlayed {
+                float: right;
+            }
+            .gamesPanel {
+                border-bottom: 1px solid #1a1a1a;
+            }
+            .gamesPanel_isEmpty {
+                border: 0;
+            }
+            .select-ludocrat {
+                float: right;
+            }
+            .unlockRanking {
+                float: right;
+            }
+            .connectedGamesDiv {
+                display: inline-block;
+                width: 45%;
+                margin-right: 2.5%;
+                vertical-align: top;
+                box-sizing: border-box;
+            }
+            .connectedGames {
+                padding: 12px;
+                padding-left: 28px;
+                background-color: #bdbdbd;
+            }
+            .connectedGames li {
+                padding: 4px;
+                border: 1px solid #1a1a1a;
+            }
+            #unrankedGames li {
+                background-color: lemonchiffon;
+            }
+            #rankedGames li {
+                background-color: mintcream;
+            }
+            .submitRanking {
+                margin-bottom: 8px;
+            }
+            .validationError {
+                margin-top: 4px;
+                margin-bottom: 12px;
+            }
+            #rankedGames li.updated,
+            #unrankedGames li.updated {
+                background-color: coral;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="button-gamesPlayed">Load Games Played By...</button>
+        <h1>Bacchic Tendencies</h1>
+        <select class="select-ludocrat">
+            <option>Anyone</option>
+        </select>
+        <h2>Even though "I don't drink anymore"</h2>
+        <div class="gamesPanel gamesPanel_isEmpty"></div>
+        <div class="content"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <script src="client.js"></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: snow;
+    color: #1a1a1a;
+}
+h1 {
+    margin-bottom: 0;
+}
+h2 {
+    margin-top: 8px;
+    border-bottom: 1px solid #1a1a1a;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+li {
+    margin-bottom: 4px;
+}
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+a {
+    color: firebrick;
+}
+a:visited {
+    color: maroon;
+}
